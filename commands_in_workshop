@@ -1,0 +1,45 @@
+ 477  git
+  478  clear
+  479  cd Desktop/
+  480  rm -r opt
+  481  mkdir git_handson
+  482  cd git_handson/
+  483  nano hello_world.c
+  484  vi hello_world.c 
+  485  git init
+  486  git status
+  487  git add hello_world.c 
+  488  git status
+  489  git commit -m "written hello world code in c"
+  490  git config --global user.name "pranav1812"
+  491  git config --global user.mail "pranavvohra1812@yahoo.in"
+  492  git commit -m "written hello world code in c"
+  493  git status
+  494  git log
+  495  git log-oneline
+  496  git log --oneline
+  497  git remote add origin https://github.com/pranav1812/owasp_git.git
+  498  git remote
+  499  git push -u origin master
+  500  git fetch
+  501  git pull
+  502  vi hello_world.c 
+  503  git status
+  504  git log
+  505  git checkout -b "branch1"
+  506  git branch
+  507  nano hello_world.c 
+  508  vi hello_world.c 
+  509  git status
+  510  git add hello_world.c 
+  511  git commit -sm "updated 2nd time"
+  512  git push -u origin owasp_git
+  513  git branch 
+  514  git push -u origin branch1
+  515  git checkout master
+  516  git merge branch1
+  517  vi hello.c
+  518  vi hello_world.c 
+  519  git push -u origin branch1 
+  520  history
+
